@@ -1,1 +1,1 @@
-redo-ifchange bar.build
+redo-ifchange build
