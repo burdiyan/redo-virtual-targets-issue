@@ -1,3 +1,5 @@
 .redo
 *.list
 dist
+list
+*.output

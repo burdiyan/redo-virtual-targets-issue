@@ -1,2 +1,3 @@
 redo-always
-ls *.txt | sort | redo-stamp
+ls *.txt | sort > $3
+redo-stamp <$3

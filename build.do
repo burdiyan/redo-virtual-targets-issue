@@ -1,7 +1,7 @@
 redo-ifchange list
-ls *.txt | xargs redo-ifchange
+redo-ifchange `cat list`
 
 echo "Running build with side-effects" >&2
 touch 1.output 2.output 3.output
 
-ls *.output | xargs redo-ifchange
+redo-ifchange `ls *.output`
